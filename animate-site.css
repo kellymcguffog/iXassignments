@@ -1,0 +1,32 @@
+h1{
+	font-size: 60px;
+	font-family: sans-serif;
+	color:blue;
+}
+
+#box_one {
+	height: 40px;
+	width: 150px;
+	border: 2px solid black;
+	border-radius: 5px;
+	float:left;
+	margin-left: 580px;
+	margin-bottom: 30px;
+
+}
+#box_two {
+	height: 40px;
+	width: 90px;
+	border: 2px solid blue;
+	border-radius: 5px;
+	float:right;
+	margin-right: 580px;
+	margin-bottom: 30px;
+
+}
+h2{
+	color:#666666;
+}
+h3{
+	color:#666666;
+}

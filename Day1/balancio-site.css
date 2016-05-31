@@ -1,0 +1,26 @@
+#heading {
+	background-color:#433C34;
+}
+p {
+	color: black;
+}
+
+h1{
+	font-family: Arial;
+}
+#design{
+	background-color: #70d9a9;
+	padding: 50px;
+}
+h3{
+	color:white;
+	font-family: Arial;
+}
+#box{
+	height: 40px;
+	width:150px;
+	border:2px solid white;
+}
+h5{
+	color:white;
+}
