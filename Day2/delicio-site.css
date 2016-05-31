@@ -1,0 +1,83 @@
+body {
+	margin:0;
+	padding:0;
+}
+.header {
+	background-color: white;
+	margin-bottom: 20px;
+}
+.delicio {
+	font-family:sans-serif;
+	font-size:30px;
+
+}
+.tabs {
+	font-family: helvetica;
+	text-align: right;
+	margin-bottom: 50px;
+}
+.content {
+	background-color: black;
+	color:white;
+	padding:200px;
+}
+.title{
+	font-family: serif;
+	font-size: 50px;
+	text-align: center;
+
+}
+.cafes{
+	font-family: serif;
+	font-size: 50px;
+	text-align: center;
+	margin-bottom: 25px;
+	border:1px solid black;
+	border-bottom-color: white; 
+}
+.text{
+	color:white;
+	font-family: sans-serif;
+	text-align: center;
+
+}
+.button{
+	background-color: orange;
+	color:white;
+	font-family:sans-serif;
+	border:2px solid orange;
+	text-align: center;
+	width: 300px;
+	height:50px;
+}
+.footer{
+	background-color: gray;
+	font-family: sans-serif;
+	font-size: 15px;
+	padding:50px;
+}
+}
+.title-header{
+	color:white;
+}
+
+}
+.info-text{
+	color:#d3d3d3;
+}
+.get-directions{
+	color:orange;
+}
+.bottom-footer{
+	border:2px solid gray;
+	border-top-color: white;
+	margin-top: 25px;
+}
+.copyright{
+	text-align: left;
+	color:#d3d3d3;
+}
+.designed-by{
+	text-align: right;
+	color:#d3d3d3;
+}
