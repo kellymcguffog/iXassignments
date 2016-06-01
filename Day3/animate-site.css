@@ -1,0 +1,38 @@
+.wrapper{
+	font-family: verdana;
+	text-align: center;
+	padding-right: 400px;
+	padding-left: 400px;
+}
+.header{
+	color:#70d9a9;
+	font-size: 80px;
+	margin-top: 150px;
+	margin-bottom: 20px;
+}
+.sub-header{
+	color:gray;
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+.btn{
+	border-radius: 2px;
+}
+.divider{
+	width:10px;
+	display: inline-block;
+}
+.footer{
+	border:1px solid white;
+	border-top-color: gray;
+	margin-top: 30px;
+
+}
+.download{
+	margin-top: 30px;
+	color: gray;
+	margin-bottom: 30px;
+}
+.Daniel{
+	font-size: 12px;
+}
