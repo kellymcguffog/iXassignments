@@ -1,0 +1,100 @@
+.body{
+	margin: 0;
+	padding:0;
+}
+.header{
+	border:1px solid white;
+	border-bottom-color: #d3d3d3;
+	padding: 30px;
+	padding-top: 0px;
+}
+.logo{
+	display: inline-block;
+	font-family: brush script MT, cursive;
+	font-size: 50px;
+	margin-right: 400px;
+}
+.tabs{
+	display: inline-block;
+	font-family: sans-serif;
+	font-size: 12px;
+
+}
+.social-media{
+	display: inline-block;
+	float: right;
+}
+.work-inline{
+	display:inline-block;
+	margin-right: 40px;
+
+}
+.work-inline:hover{
+	color:gray;
+	cursor:pointer;
+}
+.about-inline{
+	display:inline-block;
+	margin-right: 40px;
+}
+.about-inline:hover{
+	color:gray;
+	cursor:pointer;
+}
+.contact-inline{
+	display:inline-block;
+	margin-right: 40px;
+}
+.contact-inline:hover{
+	color:gray;
+	cursor:pointer;
+}
+.journal-inline{
+	display:inline-block;
+	margin-right: 40px;
+}
+.journal-inline:hover{
+	color:gray;
+	cursor:pointer;
+}
+.text{
+	text-align: center;
+	font-size: 30px;
+	font-family: times;
+}
+.info{
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+}
+.lake-image{
+	text-align: center;
+
+}
+.top-images{
+	text-align: center;
+}
+.bottom-images{
+	text-align: center;
+}
+.Hay-Rosie-image{
+	display: inline-block;
+}
+.jeans{
+	display: inline-block;
+}
+.candle{
+	display: inline-block;
+}
+.bakery{
+	display: inline-block;
+}
+.footer{
+	margin-top: 100px;
+	border:1px solid white;
+	border-top-color: #d3d3d3;
+
+}
+.info{
+	margin-top: 75px;
+}
