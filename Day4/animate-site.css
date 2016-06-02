@@ -1,0 +1,39 @@
+.wrapper{
+	font-family: verdana;
+	text-align: center;
+}
+.header{
+	color:#70d9a9;
+	font-size: 80px;
+	margin-top: 150px;
+	margin-bottom: 20px;
+}
+.sub-header{
+	color:gray;
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+.btn{
+	border-radius: 2px;
+}
+.one{
+	width:200px;
+	float: right;
+}
+.two{
+	border:2px solid #70d9a9;
+	color:#70d9a9;
+	float: left;
+}
+.footer{
+	margin-top: 30px;
+
+}
+.download{
+	margin-top: 30px;
+	color: gray;
+	margin-bottom: 30px;
+}
+.Daniel{
+	font-size: 12px;
+}
