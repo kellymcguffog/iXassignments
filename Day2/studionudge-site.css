@@ -26,18 +26,37 @@
 }
 .work-inline{
 	display:inline-block;
+	margin-right: 40px;
 
+}
+.work-inline:hover{
+	color:gray;
+	cursor:pointer;
 }
 .about-inline{
 	display:inline-block;
+	margin-right: 40px;
+}
+.about-inline:hover{
+	color:gray;
+	cursor:pointer;
 }
 .contact-inline{
 	display:inline-block;
+	margin-right: 40px;
+}
+.contact-inline:hover{
+	color:gray;
+	cursor:pointer;
 }
 .journal-inline{
 	display:inline-block;
+	margin-right: 40px;
 }
-
+.journal-inline:hover{
+	color:gray;
+	cursor:pointer;
+}
 .text{
 	text-align: center;
 	font-size: 30px;
@@ -50,22 +69,25 @@
 }
 .lake-image{
 	text-align: center;
+
+}
+.top-images{
+	text-align: center;
+}
+.bottom-images{
+	text-align: center;
 }
 .Hay-Rosie-image{
 	display: inline-block;
-	text-align: center;
 }
 .jeans{
 	display: inline-block;
-	text-align: center;
 }
 .candle{
 	display: inline-block;
-	text-align: center;
 }
 .bakery{
 	display: inline-block;
-	text-align: center;
 }
 .footer{
 	margin-top: 100px;
