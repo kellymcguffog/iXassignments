@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Validator</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+	<script src="./formValidator.js"></script>
+</head>
+<body ng-app="FormApp" ng-controller="MainCtrl">
+	<form name="myForm" ng-submit="submit()" ng-show="showForm">
+	<h1>Fill Out This Form</h1>
+		Name: <br>
+		<input type="text" ng-model="name"><br>
+		Phone Number:<br> 
+		<input type="text" ng-model="number"><br>
+		Email Address:<br> 
+		<input type="text" ng-model="email"><br>
+		Password:<br>
+		<input type="password" ng-model="password"><br>
+		Confirm Password:<br>
+		<input type="password" ng-model="confirm"><br>
+		<button ng-click="submit()">Submit</button>
+</body>
+</html>

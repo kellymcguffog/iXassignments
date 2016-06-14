@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Book</title>
+	 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+	<script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+	<script type="text/javascript" src="./address.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+</head>
+<body ng-app="ContactApp" ng-controller="MainCtrl">
+<div class="container">
+		<div class="row">
+			<div class="col-md-6 col-md-offset-3">
+					<h1>Contact Book</h1>
+					<input ng-model="search">
+					<div>Name<br><input type="text" ng-model="newName"></div>
+					<div>Number<br><input type="text" ng-model="newNumber"></div><br>
+					<button ng-click="addName()" ng-show="showForm">Add Contact</button>
+					<ol ng-repeat="item in items | filter:search">{{item}}
+					</ol>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
