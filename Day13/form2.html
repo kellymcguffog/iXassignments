@@ -1,0 +1,10 @@
+<div ng-controller="RouterCtrl">
+	<a href="#/">Form Validator</a>
+	<h1>Contact Book</h1>
+	<input ng-model="search">
+	<div>Name<br><input type="text" ng-model="newName"></div>
+	<div>Number<br><input type="text" ng-model="newNumber"></div><br>
+	<button ng-click="addName()" ng-show="showForm">Add Contact</button>
+	<ol ng-repeat="item in items | filter:search">{{item}}
+	</ol>
+</div>
